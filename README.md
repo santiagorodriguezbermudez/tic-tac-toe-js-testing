@@ -23,7 +23,7 @@ Building a Tic Tac Toe game using JavaScript to build the entire game manipulati
 
 ## Authors
 
-👤 Jose Roberto Perez Jimenez
+👤 José Roberto Pérez Jiménez
 - Github: [@LoboArkano](https://github.com/LoboArkano)
 - Twitter: [@LoboArkano](https://twitter.com/LoboArcano92)
 - Linkedin: [JoseRoberto](https://www.linkedin.com/in/jos%C3%A9-roberto-p%C3%A9rez-jim%C3%A9nez-97a729195/)
