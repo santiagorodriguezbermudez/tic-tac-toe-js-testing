@@ -1,0 +1,27 @@
+{
+  "name": "tic-tac-toe-js-testing",
+  "version": "1.0.0",
+  "description": "A microverse educational project to learn jest testing with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test_watch": "jest --watch",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiagorodriguezbermudez/tic-tac-toe-js-testing.git"
+  },
+  "author": "Santiago Rodriguez and Jose Roberto Perez Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagorodriguezbermudez/tic-tac-toe-js-testing/issues"
+  },
+  "homepage": "https://github.com/santiagorodriguezbermudez/tic-tac-toe-js-testing#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "jest": "^26.4.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

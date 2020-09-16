@@ -8,6 +8,7 @@ Building a Tic Tac Toe game using JavaScript to build the entire game manipulati
 
 -   HTML5;
 -   CSS3;
+-   Jest
 -   Javascript.
 
 ## Live Demo
@@ -22,10 +23,10 @@ Building a Tic Tac Toe game using JavaScript to build the entire game manipulati
 
 ## Authors
 
-👤 Nurislam Ab
-- Github: [@nurislam-ab](https://github.com/nurislam-ab)
-- Twitter: [@NurislamAb](https://twitter.com/NurislamAb)
-- Linkedin: [nurislam-ab](https://www.linkedin.com/in/nurislam-ab/)
+👤 Jose Roberto Perez Jimenez
+- Github: [@LoboArkano](https://github.com/LoboArkano)
+- Twitter: [@LoboArkano](https://twitter.com/LoboArcano92)
+- Linkedin: [JoseRoberto](https://www.linkedin.com/in/jos%C3%A9-roberto-p%C3%A9rez-jim%C3%A9nez-97a729195/)
 
 👤 Santiago Rodriguez
 - Github: [@santiagorodriguezbermudez](https://github.com/santiagorodriguezbermudez)
