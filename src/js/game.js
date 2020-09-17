@@ -52,17 +52,25 @@ const GameLogic = (() => {
     currentPlayer = currentPlayer === player1 ? player2 : player1;
   };
 
-  const evaluateWinner = () => {
-    let doWeHaveAWinner;
-    const boardArray = GameBoard.getMovesArray();
-    winningPatterns.forEach((pattern) => {
-      doWeHaveAWinner = pattern.every((index) => boardArray[index] === currentPlayer.token);
+  const checkPattern = (winningPatterns, boardArray, token) => {
+    let bool = false;
 
-      if (doWeHaveAWinner) {
-        winner = currentPlayer;
+    winningPatterns.forEach((pattern) => {
+      if (pattern.every((index) => boardArray[index] === token)) {
+        bool = true;
       }
     });
 
+    return bool;
+  }
+
+  const evaluateWinner = () => {
+    let doWeHaveAWinner;
+    const boardArray = GameBoard.getMovesArray();
+
+    if (checkPattern(winningPatterns, boardArray, currentPlayer.token)) {
+      winner = currentPlayer;
+    }
     if (!endGame(boardArray, winner)) {
       switchPlayer();
       let firstString = `Hello ${currentPlayer.name}, this is your turn.<br>`;
@@ -121,6 +129,7 @@ const GameLogic = (() => {
     start,
     resetGame,
     updateTokens,
+    checkPattern,
   };
 })();
 
