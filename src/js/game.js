@@ -62,10 +62,9 @@ const GameLogic = (() => {
     });
 
     return bool;
-  }
+  };
 
   const evaluateWinner = () => {
-    let doWeHaveAWinner;
     const boardArray = GameBoard.getMovesArray();
 
     if (checkPattern(winningPatterns, boardArray, currentPlayer.token)) {
@@ -130,6 +129,7 @@ const GameLogic = (() => {
     resetGame,
     updateTokens,
     checkPattern,
+    playerInput,
   };
 })();
 
