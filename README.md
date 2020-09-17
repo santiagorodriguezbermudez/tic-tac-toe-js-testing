@@ -19,7 +19,30 @@ Building a Tic Tac Toe game using JavaScript to build the entire game manipulati
 
 - Fork the repository and create a local one on your computer;
 - Move to the repository inside the command line using `cd` and the path to the file;
-- open `index.html` file on your browser.
+- Deploy `index.html` on your localhost.
+
+## Setup
+
+Install dependencies with:
+
+```
+    npm install
+```
+
+Save a changes with:
+
+```
+   npm run watch
+```
+
+Run test with:
+```
+    npm run test
+```
+or
+```
+    npm run test_watch
+```
 
 ## Authors
 
